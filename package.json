@@ -1,0 +1,29 @@
+{
+  "name": "test-javascript-lib",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bizppurio-api/bizapi-javascript-lib.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bizppurio-api/bizapi-javascript-lib/issues"
+  },
+  "homepage": "https://github.com/bizppurio-api/bizapi-javascript-lib#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "https": "^1.0.0"
+  }
+}
